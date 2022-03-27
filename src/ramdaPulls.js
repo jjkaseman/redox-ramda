@@ -7,6 +7,11 @@ export async function getAllPRs() {
         let pageCount = 1;
         let morePRs = true;
         let prList = [];
+
+        if (pat.startsWith('**')){
+            console.error('**Set your personal access token above.**');
+            return [];
+        }
         
         try {
             while (morePRs){
