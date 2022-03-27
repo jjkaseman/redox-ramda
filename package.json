@@ -1,7 +1,15 @@
 {
+  "name": "redox",
+  "version": "1.0.0",
+  "description": "Redox interview project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Kaseman",
+  "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.2.3",
-    "ruby": "^0.6.1",
-    "sinatra": "^0.0.5"
+    "node-fetch": "^3.2.3"
   }
 }
